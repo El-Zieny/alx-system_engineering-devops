@@ -1,1 +1,2 @@
-puff >.<
+#!/bin/bash
+pwd
