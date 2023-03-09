@@ -1,2 +1,2 @@
 #!/bin/bash
-If [ stat -c '%U' == guillaume]; then chown betty hello; fi
+If [ stat -c '%U' == guillaume] then chown betty hello fi
