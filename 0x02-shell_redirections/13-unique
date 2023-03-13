@@ -1,2 +1,2 @@
 #!/bin/nash
-uniq
+uniq -u
