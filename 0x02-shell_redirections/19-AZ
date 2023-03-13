@@ -1,2 +1,2 @@
 #!/bin/bash
-grep
+grep "A\|c" | tr A Z | tr c e
