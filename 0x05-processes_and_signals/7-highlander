@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# seriesly "to infinity and beyond" to infinity and beyond no joke
-trap 'echo "I am invicible!!!"' SIGTERM
+# seriesly "to infinity and beyond" to infinity and beyond no jokei
+trap 'echo "I am invincible!!!"' SIGTERM
 while true
 do
 	echo "To infinity and beyond"
