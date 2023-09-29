@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# kills hostily
+kill -9 $(ps x | grep 7-highlander)
