@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # ls without numbering
-for _ in $(ls)
+names=$(ls)
+for _ in $names
 do
 	echo "$_" | cut -d- -f 2
 done
