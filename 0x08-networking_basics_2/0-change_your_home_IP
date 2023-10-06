@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-#exchange home IP with FB IP
+# script that changes local host adresses
+cp /etc/hosts ~/hosts.new
 echo "127.0.0.2\tlocalhost" >> /etc/hosts
 echo "8.8.8.8\tfacebook.com" >> /etc/hosts
+cp -f ~/hosts.new /etc/hosts
