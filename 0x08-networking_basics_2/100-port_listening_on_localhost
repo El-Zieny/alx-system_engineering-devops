@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#script to listen to localhost socket 98
-nc -l localhost 98
