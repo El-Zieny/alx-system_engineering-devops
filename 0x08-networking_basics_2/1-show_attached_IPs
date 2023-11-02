@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display all ip on machine
+ifconfig -a | grep -oP 'inet (.*?) ' | cut -d" " -f2
